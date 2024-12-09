@@ -1,0 +1,11 @@
+/* Nested loop with condition */
+$main-text-color: #3D3D3D;
+$secondary-text-color: #FF0000;
+
+body {
+    color: $main-text-color;
+}
+
+body .p:first-child {
+    color: $secondary-text-color;
+}

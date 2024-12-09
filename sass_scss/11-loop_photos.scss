@@ -1,0 +1,8 @@
+/* Importing photos from photos file and looping  */
+@import './11-photos.scss';
+
+@each $name in $list-names {
+    .#{$name} {
+        background-image: url('./11-photos.scss');
+    }
+}
