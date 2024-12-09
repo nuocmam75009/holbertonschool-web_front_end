@@ -1,11 +1,9 @@
 /* Nested class with variables */
-$main-text-color: #3D3D3D;
-$secondary-text-color: #FF0000;
 
 body {
-    color: $main-text-color;
+    color: #3D3D3D;
 
     body .red {
-        color: $secondary-text-color;
+        color: #FF0000;
     }
 }
