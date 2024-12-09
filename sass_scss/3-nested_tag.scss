@@ -1,8 +1,7 @@
 /* No margin in body, 10px margin for <p> in <body>s */
 body {
-    margin: none;
-    padding: none;
-
+    margin: 0px;
+    padding: 0px;
     p {
         margin: 10px;
     }
