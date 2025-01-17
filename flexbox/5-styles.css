@@ -46,7 +46,21 @@
     --section-footer-align: center;
 
     /** HEADER **/
-    --header-padding: 4rem 0 0;
+    --header-padding: 4rem 0 0;<li class="col-1-3">
+    <div class="card-services">
+      <h3 class="card-title"><a href="#">UX Design</a></h3>
+    </div>
+  </li>
+  <li class="col-1-3">
+    <div class="card-services">
+      <h3 class="card-title"><a href="#">Web Development</a></h3>
+    </div>
+  </li>
+  <li class="col-1-3">
+    <div class="card-services">
+      <h3 class="card-title"><a href="#">Social Media</a></h3>
+    </div>
+  </li>
 
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
@@ -192,10 +206,6 @@ ul.row {
 
 /* Navbar
       ============================= */
-
-.navbar-menu {
-    float: right;
-}
 
 .nav {
     margin: 0;
